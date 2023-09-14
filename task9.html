@@ -1,0 +1,59 @@
+<html>
+    <head>
+        Task-9(CSS)<br><br>
+    </head>
+    <body>
+        <style>
+            .box{
+                height: 500px ;
+                width: 700px;
+                border: 1px solid black;
+                margin-left: -7px;
+            
+            }
+            #MySidenav a{
+                position: absolute;
+                padding: 15px;
+                width: 100px;
+                text-decoration: none;
+                left: -80px;
+                margin-top: 30px;
+                transition: 0.3s;
+                font-size: 20px;
+                color: white;
+                border-radius: 0px 5px 5px 0px;
+            }
+            #mySidenav a:hover{
+                left: 0;
+            }
+            #green{
+                top:120px;
+                background-color:lightgreen;
+            }
+            #blue{
+                top: 180px;
+                background-color: lightblue;
+            }
+            #red{
+                top: 240px;
+                background-color: red;
+            }
+            #gray{
+                top: 300px;
+                background-color: gray;
+            }
+        </style>
+        <div class="Box">
+            <div id="MySidenav" class="Sidenav">
+                <a href="#" id="green">Green</a><br>
+                <a href="#" id="blue">Blue</a><br>
+                <a href="#" id="red">Red</a><br>
+                <a href="#" id="gray">Gray</a><br>
+            </div>
+            <div style="margin-left: 160;">
+                <h1>Hoverable Sidenav Buttons</h1>
+                <p>Hover over the buttons in the left side navigation to open them.</p>
+            </div>
+        </div>
+    </body>
+</html>

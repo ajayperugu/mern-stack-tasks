@@ -1,0 +1,73 @@
+<html>
+    <head>
+        Task-7(CSS)<br><br>
+    </head>
+    <body>
+        <style>
+            .box{
+                border: 1px solid lightcoral;
+                height: 600px;
+                width: 700px;
+                background-color: lightcoral;
+            }
+            .box1{
+                border: 1px solid palevioletred;
+                height: 330px;
+                width: 400px;
+                margin-left: 75px;
+                margin-top: 60px;
+                padding: 70px;
+                background-color:palevioletred ;
+                color: white;
+            }
+            .button{
+                width: 380px;
+                height: 40px;
+                border-radius: 10px;
+                font-size: 20px;
+                border: 1px solid white;
+            }
+            #about{
+                height: 50px;
+            }
+        </style>
+        <div class="Box">
+            <div class="Box1">
+                    <h>Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h>
+                    <input type="text" placeholder="your name" id="name" size="30"><br><br>
+                    <h>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h>
+                    <input type="email" placeholder="your email" id="email" size="30"><br><br>
+                    <h>Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h>
+                    <input type="password" id="password" size="30"><br><br>
+                    <h>Phone Number:&nbsp;</h>
+                    <input type="tel" id="phone" size="30"><br><br>
+                    <h>Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h>
+                    <label>
+                        Male:
+                        <input type="radio">
+                    </label>
+                    <label>
+                        Female:
+                        <input type="radio">
+                    </label>
+                    <label>
+                        Others:
+                        <input type="radio">
+                    </label><br><br>
+                    <h>Language: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h>
+                    <select>
+                        <option>Select language</option>
+                        <option>English</option>
+                        <option>Telugu</option>
+                        <option>Hindi</option>
+                        <option>Tamil</option>
+                    </select><br><br>
+                    <h>Zip Code: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h>
+                    <input type="text" id="zip" size="30"><br><br>
+                    <h>About:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h>
+                    <input type="text" placeholder="Write about yourself..." id="about" size="30"><br><br>
+                    <input type="button" value="Register" class="button">
+            </div>
+        </div>
+    </body>
+</html>
